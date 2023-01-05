@@ -1,0 +1,19 @@
+													Lecture 75 js while loop
+
+loop for or loop while me condition check hoti hain
+
+
+JavaScript has 8 Datatypes
+1. String
+2. Number
+3. Bigint
+4. Boolean
+5. Undefined
+5. Null
+7. Symbol
+8. Object
+
+object ke bhi 3 data types hote he
+1.an object
+2.an array
+3.a date

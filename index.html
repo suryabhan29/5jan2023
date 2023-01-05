@@ -5,8 +5,39 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Javascript while loop</title>
+        <script>
+            // before the closing of haad tag
+        </script>
     </head>
     <body>
-        
+        <ul id="myul"></ul>
+       <script>
+             let myul = document.getElementById("myul");
+             console.log(myul)
+            // before the closing of body tag
+            // take username and how many time to greet
+            let name = prompt('Please enter your name'); // prompt use to take input 
+            console.log(name);
+            let notime = prompt("how many times to greet ? ")
+            console.log(typeof  notime);  // type casting type of is a opertor
+            // this is called type casting
+            notime = parseInt(notime)
+
+            /*
+                while (condition) {
+            // code block to be executed
+            }
+            */
+           var i =1;
+            while (i<=notime){
+                console.log(`Hi ${name} how are you`)  // variabal subsitution
+                myul.innerHTML += `<li>Hi ${name} how are you</li>`;
+                i++;  // post increment
+
+            }
+
+           
+            
+        </script>
     </body>
 </html>
